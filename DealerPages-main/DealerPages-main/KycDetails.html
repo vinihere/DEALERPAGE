@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="institute-1.1s-200px.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>Dealer Details</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container_login {
+            margin-top: 8px;
+          
+            border-radius: 12px;
+            font-weight: bold;
+   
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            gap: 10px;
+            box-sizing: border-box;
+        }
+
+        .fieldset-row {
+            display: flex;
+            gap: 1px;
+            background-color:  rgba(147, 159, 166, 0.144);
+
+        }
+
+        .fieldset-row > fieldset {
+            flex: 1;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table td {
+            padding: 3px;
+            text-align: left;
+        }
+
+        /* ... (rest of the CSS) ... */
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="kyc.css" />
+
+</head>
+
+<body>
+    <div class="firstdiv"></div>
+    <div class="bg_image"></div>
+    <div class="section">
+        <div class="container_login">
+            <div class="fieldset-row">
+                <fieldset>
+                    <legend>Applicant Details</legend>
+                    <table>
+                        <tr>
+                            <td><label for="aadhaar">Aadhaar Number:</label></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="aadhaar" maxlength="12">&nbsp;<button>Scan</button></td>
+                            <!-- <td><button>Scan</button></td> -->
+                        </tr>
+                        <tr>
+                            <td><label for="pan">Pan No:</label></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="pan" maxlength="10">&nbsp;<button class="">Get Cibil</button></td>
+                            <!-- <td><button class="">Get Cibil</button></td> -->
+                        </tr>
+                        <tr>
+                            <td><label for="cibil">Cibil Score:</label></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="cibil" readonly="true"></td>
+                            <td style="width: 10px;"> <button class="">Save</button></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Viewer</legend>
+                    <!-- Add your content for the viewer here -->
+                </fieldset>
+               
+                
+            </div>
+           
+       
+        <!-- <div class="container_login"> -->
+            <div class="fieldset-row">
+                <fieldset>
+                    <legend>Co-Applicant Details</legend>
+                    <table>
+                        <tr>
+                            <td><label for="aadhaar">Aadhaar Number:</label></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="aadhaar" maxlength="12">&nbsp;<button>Scan</button></td>
+                            <!-- <td><button>Scan</button></td> -->
+                        </tr>
+                        <tr>
+                            <td><label for="pan">Pan No:</label></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="pan" maxlength="10">&nbsp;<button class="">Get Cibil</button></td>
+                            <!-- <td><button class="">Get Cibil</button></td> -->
+                        </tr>
+                        <tr>
+                            <td><label for="cibil">Cibil Score:</label></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="cibil" readonly="true"></td>
+                            <td style="width: 10px;"> <button class="">Save</button></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Viewer</legend>
+                    
+                        <table>
+                            <td style="width: 10px;"> <button class=""><a href="Product.html">nextpage</a></button></td>
+                            
+                        </table>
+                </fieldset>
+               
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $(".firstdiv").load("navbar.html");
+        });
+    </script>
+</body>
+
+</html>

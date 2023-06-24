@@ -1,0 +1,179 @@
+
+html {
+    font-size: 62.5%;
+
+
+}
+
+body {
+
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.section {
+    overflow-wrap: normal;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+
+    z-index: 1;
+    width: 90%;
+
+    padding: .2rem 5%;
+    flex-wrap: wrap;
+    display: flex;
+     align-content: center; 
+     justify-content: center; 
+     gap: 10px;
+
+}
+
+.container_login {
+    background-color: rgba(38, 104, 146, 0.13);
+    /* Black w/opacity/see-through */
+    margin-top: 8px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border-radius: 12px;
+    z-index: 1;
+    font-weight: bold;
+    width: 1100px;
+
+    padding: 2.8rem 5%;
+    gap: 15px;
+
+
+
+
+
+
+}
+
+
+.container_login div h1 {
+    margin-left: 30%;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: rgba(26, 24, 24, 0.847);
+}
+
+.container_login div h3 {
+    color: rgba(26, 24, 24, 0.847);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container_login div h2 {
+    color: rgba(26, 24, 24, 0.847);
+}
+
+.main_content {
+    margin-top: 5px;
+    height: 450px;
+
+
+}
+
+.f {
+    margin-left: 2px;
+}
+
+
+.selection {
+    width: 9rem;
+    height: 2.5rem;
+}
+
+.f input {
+    height: 22px;
+    width: 26rem;
+}
+.info{
+    font-size: 130%;
+}
+
+.b {
+    display: inline-block;
+    padding:8px 10px;
+    background-color: rgb(245, 242, 235);
+    border-radius: 15px;
+    color: blue;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 1px 4px rgba(64, 75, 87, 0.3);
+} 
+
+.Button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff9900;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+    background-color: #cc6600;
+}
+
+@media screen and (max-width: 480px) {
+    .responsive-button {
+        display: block;
+        width: 100%;
+    }
+}
+
+.s {
+    border: none;
+    background-color: rgb(245, 242, 235);
+    border-radius: 23px;
+    color: blue;
+    box-shadow: 0 1px 4px rgba(64, 75, 87, 0.3);
+}
+
+.b:hover {
+    color: #fff;
+    background-color: rgb(79, 79, 208);
+    cursor: pointer;
+}
+
+.bg_image {
+    /* The image used */
+    background-image: url(loginandsignup.jpg);
+    
+
+
+
+    height: 100vh;
+
+    z-index: -1;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 768px) {
+/* Styles for screens with a maximum width of 768px (e.g., tablets) */
+}
+
+@media screen and (max-width: 480px) {
+/* Styles for screens with a maximum width of 480px (e.g., smartphones) */
+}
+fieldset {
+
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(53, 52, 52);
+    border-image: initial;
+ border-radius: 12px;
+}
